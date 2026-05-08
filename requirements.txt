@@ -1,2 +1,3 @@
+# Requirements for Earthquake Monitor
 requests
 flask
