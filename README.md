@@ -33,3 +33,6 @@ seismic activity around the world, with a focus on South America.
 
 ## 👩‍💻 Author
 Yuly - Future Computational Geophysicist from Arequipa, Peru 🇵🇪
+
+## 📅 Last Updated
+May 2026
