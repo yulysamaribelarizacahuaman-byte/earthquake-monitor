@@ -1,4 +1,4 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify, render_template
 from api import get_earthquakes
 from database import create_database, save_earthquake, get_saved_earthquakes, get_statistics, clear_database
 
@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "🌋 Earthquake Monitor is running!"
+    return render_template('index.html')
 
 @app.route('/earthquakes')
 def earthquakes():
